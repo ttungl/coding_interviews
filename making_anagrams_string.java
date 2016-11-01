@@ -43,10 +43,11 @@ import java.math.*;
 import java.util.regex.*;
 public class Solution {
     public static int numberNeeded(String first, String second) {
-        int result=0;
+        int result = 0;
+        int numOfAlphabet = 26;
         String str1 = first; // strings do not need to have the same lengths.
         String str2 = second;
-        int numOfAlphabet = 26;
+
         int [] array1 = new int[numOfAlphabet];
         int [] array2 = new int[numOfAlphabet];
         
