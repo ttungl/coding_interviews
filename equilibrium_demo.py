@@ -2,7 +2,6 @@ def Equilibrium(A):
 	sum_all = 0
 	Rsum = 0
 	Lsum = 0
-
 	for (i,v) in enumerate(A):
 		sum_all += A[i]
 	for (j,w) in enumerate(A):
