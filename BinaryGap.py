@@ -1,4 +1,3 @@
-
 def solution(N):
 	BinArray = []
 	Array = []
@@ -12,7 +11,6 @@ def solution(N):
 			BinArray.append(1)
 		
 		N = N/2 ## update N
-	
 	## reverse BinArray
 	BinArray.reverse()
 	
@@ -24,14 +22,8 @@ def solution(N):
 			else:
 				Array.append(counter)
 				counter=0
-
 		else:
 			if flag==1:
 				counter=counter+1
-	# print Array
-	# print max(Array)
 	## return
 	return max(Array)
-	
-N=1041
-solution(N)
