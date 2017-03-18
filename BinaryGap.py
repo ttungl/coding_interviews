@@ -9,7 +9,6 @@ def solution(N):
 			BinArray.append(0)
 		else:
 			BinArray.append(1)
-		
 		N = N/2 ## update N
 	## reverse BinArray
 	BinArray.reverse()
